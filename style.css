@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: Montserrat;
+    background-color: #2962AF;
+}
+
+.form {
+    width: 700px;
+    margin: 20px auto;
+    background-color: #3A469C;
+    border: 5px solid #0E9AD9;
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+.form-title {
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form-title legend {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.form-title p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.form-area {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.form-item {
+    width: 100%;
+}
+
+.form-item input {
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: transparent;
+    border: 0;
+    color: #03A7DC;
+    border-bottom: 2px solid #03A7DC;
+    padding: 10px 0;
+    outline: 0;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+
+
+input::placeholder {
+    color: #03A7DC;
+}
+
+.form-btn {
+    text-align: center;
+}
+
+.form-btn .submit_btn {
+    background: transparent;
+    border: 2px solid #ffffff;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-btn .submit_btn span {
+    margin-left: 10px;
+}
+
+.box {
+    width: 700px;
+    margin: 200px auto;
+    background-color: #3A469C;
+    border: 5px solid #0E9AD9;
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
